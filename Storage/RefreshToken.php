@@ -2,8 +2,8 @@
 
 namespace OAuth2\ServerBundle\Storage;
 
-use OAuth2\Storage\RefreshTokenInterface;
 use Doctrine\ORM\EntityManager;
+use OAuth2\Storage\RefreshTokenInterface;
 
 class RefreshToken implements RefreshTokenInterface
 {

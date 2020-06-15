@@ -121,7 +121,7 @@ class OAuth2UserProvider implements UserProviderInterface
     /**
      * Creates a salt for password hashing
      *
-     * @return A salt
+     * @return string A salt
      */
     protected function generateSalt()
     {

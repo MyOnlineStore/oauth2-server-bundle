@@ -4,7 +4,6 @@ namespace OAuth2\ServerBundle\Storage;
 
 use OAuth2\Storage\ClientCredentialsInterface;
 use Doctrine\ORM\EntityManager;
-use OAuth2\ServerBundle\Entity\Client;
 
 class ClientCredentials implements ClientCredentialsInterface
 {

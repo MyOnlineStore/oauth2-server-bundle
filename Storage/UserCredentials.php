@@ -2,13 +2,13 @@
 
 namespace OAuth2\ServerBundle\Storage;
 
-use OAuth2\Storage\UserCredentialsInterface;
 use Doctrine\ORM\EntityManager;
-use Symfony\Component\Security\Core\User\UserProviderInterface;
-use Symfony\Component\Security\Core\User\AdvancedUserInterface;
-use Symfony\Component\Security\Core\Encoder\EncoderFactoryInterface;
-use OAuth2\ServerBundle\User\OAuth2UserInterface;
 use OAuth2\ServerBundle\User\AdvancedOAuth2UserInterface;
+use OAuth2\ServerBundle\User\OAuth2UserInterface;
+use OAuth2\Storage\UserCredentialsInterface;
+use Symfony\Component\Security\Core\Encoder\EncoderFactoryInterface;
+use Symfony\Component\Security\Core\User\AdvancedUserInterface;
+use Symfony\Component\Security\Core\User\UserProviderInterface;
 
 class UserCredentials implements UserCredentialsInterface
 {

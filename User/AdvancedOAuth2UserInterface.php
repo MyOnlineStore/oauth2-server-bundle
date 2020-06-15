@@ -18,7 +18,7 @@ interface AdvancedOAuth2UserInterface extends AdvancedUserInterface
      * </code>
      *
      *
-     * @return The user scope
+     * @return string The user scope
      */
     public function getScope();
 }

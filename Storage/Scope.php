@@ -2,9 +2,9 @@
 
 namespace OAuth2\ServerBundle\Storage;
 
-use OAuth2\Storage\ScopeInterface;
-use OAuth2\ServerBundle\Manager\ScopeManagerInterface;
 use Doctrine\ORM\EntityManager;
+use OAuth2\ServerBundle\Manager\ScopeManagerInterface;
+use OAuth2\Storage\ScopeInterface;
 
 class Scope implements ScopeInterface
 {
