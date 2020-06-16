@@ -18,7 +18,7 @@ interface OAuth2UserInterface extends UserInterface
      * </code>
      *
      *
-     * @return The user scope
+     * @return string The user scope
      */
     public function getScope();
 }

@@ -3,6 +3,7 @@
 namespace OAuth2\ServerBundle\Manager;
 
 use Doctrine\ORM\EntityManager;
+use OAuth2\ServerBundle\Entity\Scope;
 
 class ScopeManager implements ScopeManagerInterface
 {
@@ -28,7 +29,7 @@ class ScopeManager implements ScopeManagerInterface
           return $scopeObject;
         }
 
-        $scopeObject = new \OAuth2\ServerBundle\Entity\Scope();
+        $scopeObject = new Scope();
         $scopeObject->setScope($scope);
         $scopeObject->setDescription($description);
 
